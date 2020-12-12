@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You Found A Radio!</title>
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:300,500" rel="stylesheet"/>
+     <link rel = "stylesheet" type="text/css" href="main.css"/>
+</head>
+<body>
+    <audio autoplay=true loop=true src="/r.mp3">
+    </audio>
+    <center>
+    <div style="position: relative;">    
+        
+      <div id="header">
+        <center>
+            <h2 id="text" style="position: fixed; width:100%; text-align: center">
+                You Found a Radio!
+            </h2>
+        </center>
+      </div>
+      <script src=" https://requirejs.org/docs/release/2.3.5/minified/require.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/javascript-obfuscator/dist/index.browser.js"></script>
+      
+  
+        <audio id="ad">
+            <source src="audio.mp3" type="audio/mpeg" >
+        </audio>
+        <audio id="morse1">
+            <source src="morse1.wav" type="audio/wav" muted>
+        </audio>
+        <audio id="morse2">
+            <source src="morse2.wav"  type="audio/wav" muted>
+        </audio>
+        <audio id="v1">
+            <source src="v1.mp3" type="audio/mpeg" muted>
+        </audio>
+        <audio id="v">
+            <source src="v.mp3" type="audio/mpeg" muted>
+        </audio>
+
+        
+        <div id="main" onclick="playAudio()">
+            <center>
+                <img src="image.jpg"id="c">
+            </center>
+        </div>
+
+        <script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-app.js"></script>
+
+
+<script src="https://www.gstatic.com/firebasejs/8.1.2/firebase-analytics.js"></script>
+
+       
+        <div id="footer">
+           
+            <center>
+                <h1 id="t" class="a" style="position: fixed; bottom: 0; width:100%; text-align: center">
+                    < 101.63 >
+                </h1>
+            </center>
+            <p id="text2" style="position: fixed; bottom: 0; width:100%; text-align: center; margin-bottom: 70px;"></p>
+        </div>
+    </div>
+</center>
+  
+
+
+
+   
+
+
+    <script src="main.js"></script>
+
+</body>
+</html>

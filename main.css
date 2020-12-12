@@ -1,0 +1,26 @@
+body{
+    background-image: url('radio.gif');
+    display: flex;
+    flex-flow: column;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#text, #text2 {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+#t {
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+#c{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    opacity: 0;
+    height: 40%;
+}
